@@ -49,6 +49,7 @@ export const App = () => {
         onChange={onChangeTodoText}
         onClick={onClickAdd}
       />
+      <p></p>
       <IncompleteTodos
         todos={incompleteTodos}
         onClickComplete={onClickComplete}
